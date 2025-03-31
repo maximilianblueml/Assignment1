@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 
 def mean(values):
     # Calculate the mean value in the given timespan
-    valuesNpArray = np.array(values)
+    valuesNpArray=np.array(values) # testing ruff error: right  valuesNpArray = np.array(values)
     meanAnswer = sum(valuesNpArray) / len(valuesNpArray)
     return meanAnswer
 
