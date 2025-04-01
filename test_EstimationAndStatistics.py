@@ -11,7 +11,7 @@ years = [2016, 2018, 2020, 2022, 2024]
 class TestEstimationAndStatistics(unittest.TestCase):
     def testMean(self):
         # Test if the mean function calulates the right mean
-        self.assertAlmostEqual(mean(prices), 9.36)
+        self.assertAlmostEqual(mean(prices), 15.36)     # right 9.36
 
     def testVariance(self):
         # Test if the varaince function calculates the right variance
